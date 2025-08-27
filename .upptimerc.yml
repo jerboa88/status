@@ -1,31 +1,34 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: jerboa88 # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: 168421 (168421.xyz)
+    url: https://168421.xyz
+  - name: Game Maps (game-maps.johng.io)
+    url: https://game-maps.johng.io
+  - name: Internal Domain Name Calculator for TrueCharts Apps (internal-domain-name-calculator-for-truecharts-apps.johng.io)
+    url: https://internal-domain-name-calculator-for-truecharts-apps.johng.io
+  - name: Komodo - Mods for Komoot (komodo.johng.io)
+    url: https://komodo.johng.io
+  - name: Mergist - Online PDF Merger (mergist.johng.io)
+    url: https://mergist.johng.io
+  - name: My Portfolio (johng.io)
+    url: https://komodo.johng.io
+  - name: Short End - URL Shortener (l.johng.io)
+    url: https://l.johng.io
+  - name: Tally - Word Counter (tally.johng.io)
+    url: https://tally.johng.io
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.johng.io
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: Status
+  introMessage: Uptime and status monitoring for my sites, powered by [Upptime](https://upptime.js.org/).
   navbar:
     - title: Status
       href: /
